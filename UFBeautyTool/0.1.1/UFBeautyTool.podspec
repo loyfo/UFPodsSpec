@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'http://git.ufotosoft.com/iostools/ufbeautytool'
+  s.homepage         = 'https://gitb.ufotosoft.com/iostools/ufbeautytool'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'loyfo' => 'hwp_163@163.com' }
-  s.source           = { :git => 'http://git.ufotosoft.com/iostools/ufbeautytool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@gitb.ufotosoft.com:iostools/ufbeautytool.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.0'
