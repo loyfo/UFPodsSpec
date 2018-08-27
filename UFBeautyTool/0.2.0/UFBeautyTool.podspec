@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
     c.dependency 'GPUImage'
     c.dependency 'UFBase/TFHeaders'
     c.vendored_libraries = 'UFBeautyTool/Classes/Buffer/**/*.a'
+    c.resources = 'UFBeautyTool/Classes/Buffer/UFBufferBeautyTool.bundle'
   end
 
   s.source_files = 'UFBeautyTool/Classes/*'
