@@ -15,7 +15,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'UFCamera/Classes/**/*'
   s.dependency 'UFBeautyTool/Buffer', '~> 0.2.2'
   s.dependency 'UFBase', '~> 0.1.2'
-  s.dependency 'UFFaceTracker', '0.1.1'
+  s.dependency 'UFFaceTracker', '~> 0.1.2'
   s.dependency 'UFDeviceTool/MotionManager', '~> 0.1.0'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO'}
 
