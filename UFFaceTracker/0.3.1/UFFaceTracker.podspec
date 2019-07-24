@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
       c.frameworks = 'UIKit', 'SystemConfiguration', 'AVFoundation', 'CoreVideo', 'CoreMedia', 'AssetsLibrary'
       c.dependency   'UFBase/ImageHelper'
       c.vendored_frameworks =  'UFFaceTracker/Classes/Ufoto/Frameworks/RtFacialOutline.framework'
-      c.public_header_files = 'UFFaceTracker/Classes/Ufoto/**/*.h'
       c.xcconfig            = {
           'FRAMEWORK_SEARCH_PATHS'   => '$(inherited) $(PODS_ROOT)/UFFaceTracker',
           'LIBRARY_SEARCH_PATHS'     => '$(inherited) $(PODS_ROOT)/UFFaceTracker',
