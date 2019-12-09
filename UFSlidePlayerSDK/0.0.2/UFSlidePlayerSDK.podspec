@@ -25,10 +25,13 @@ Pod::Spec.new do |spec|
 
   spec.source_files         = [ 'UFSlidePlayerSDK/UFSlidePlayerSDK/UFSlidePlayerSDK.h',
                                 'UFSlidePlayerSDK/UFSlidePlayerSDK/classes/**/*',
+                                'UFSlidePlayerSDK/UFSlidePlayerSDK/classes/**/**/*',
                                 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/*.{h,hpp}',
                                ]
 
-  spec.public_header_files  = 'UFSlidePlayerSDK/UFSlidePlayerSDK/UFSlidePlayerSDK.h'
+  spec.public_header_files  = [ 'UFSlidePlayerSDK/UFSlidePlayerSDK/UFSlidePlayerSDK.h',
+                                'UFSlidePlayerSDK/UFSlidePlayerSDK/classes/public/**/.*h',
+                               ]
 
   spec.private_header_files = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/*.h'
   spec.vendored_libraries   = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/*.a'
