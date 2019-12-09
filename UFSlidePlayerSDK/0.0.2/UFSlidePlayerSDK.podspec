@@ -41,7 +41,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
 
-  spec.frameworks = "Accelerate"
+  spec.frameworks = "Accelerate","VideoToolbox","AudioToolbox","CoreMedia"
   spec.libraries = "stdc++"
 
   spec.xcconfig = {  'ENABLE_BITCODE' => 'NO' }
