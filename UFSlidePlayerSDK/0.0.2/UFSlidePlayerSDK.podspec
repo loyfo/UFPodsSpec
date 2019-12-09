@@ -49,7 +49,8 @@ Pod::Spec.new do |spec|
 
 
   spec.libraries = [    "stdc++",
-                        "z2.1.0",
+                        "bz2.1.0",
+                        "z1.2.5",
                         "iconv2.4.0",
                     ]
 
