@@ -48,11 +48,7 @@ Pod::Spec.new do |spec|
                       ]
 
 
-  spec.libraries = [    "stdc++",
-                        "bz2.1.0",
-                        "z1.2.5",
-                        "iconv2.4.0",
-                    ]
+  spec.libraries =  "stdc++", "bz2.1.0", "z1.2.5", "iconv2.4.0"
 
   spec.xcconfig = {  'ENABLE_BITCODE' => 'NO' }
   ## 屏蔽x86
