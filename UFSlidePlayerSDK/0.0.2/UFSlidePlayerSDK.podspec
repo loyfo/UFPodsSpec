@@ -50,7 +50,7 @@ Pod::Spec.new do |spec|
 
   spec.libraries = [    "stdc++",
                         "z2.1.0",
-                        "iconv2.4.0",
+                        "iconv",
                     ]
 
   spec.xcconfig = {  'ENABLE_BITCODE' => 'NO' }
