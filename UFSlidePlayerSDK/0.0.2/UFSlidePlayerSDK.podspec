@@ -41,8 +41,17 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
 
-  spec.frameworks = "Accelerate","VideoToolbox","AudioToolbox","CoreMedia"
-  spec.libraries = "stdc++"
+  spec.frameworks = [   "Accelerate",
+                        "VideoToolbox",
+                        "AudioToolbox",
+                        "CoreMedia",
+                      ]
+
+
+  spec.libraries = [    "stdc++",
+                        "z2.1.0",
+                        "iconv2.4.0",
+                    ]
 
   spec.xcconfig = {  'ENABLE_BITCODE' => 'NO' }
   ## 屏蔽x86
