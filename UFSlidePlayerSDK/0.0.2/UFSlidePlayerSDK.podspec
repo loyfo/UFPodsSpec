@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
                                ]
 
   spec.public_header_files  = [ 'UFSlidePlayerSDK/UFSlidePlayerSDK/UFSlidePlayerSDK.h',
-                                'UFSlidePlayerSDK/UFSlidePlayerSDK/classes/public/**/.*h',
+                                'UFSlidePlayerSDK/UFSlidePlayerSDK/classes/public/**/*.h',
                                ]
 
   spec.private_header_files = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/*.h'
