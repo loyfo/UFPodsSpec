@@ -38,7 +38,7 @@
  'CoreMedia', 
  ] 
  
- spec.libraries = 'stdc++', 'bz2.1.0', 'z', 'iconv' 
+ spec.libraries = 'c++', 'bz2.1.0', 'z', 'iconv' 
  
  spec.xcconfig = { 'ENABLE_BITCODE' => 'NO' } 
  ## 屏蔽x86 
