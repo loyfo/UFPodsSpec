@@ -44,7 +44,6 @@
  ## 1 屏蔽x86;2 other linker flags 
  spec.pod_target_xcconfig = { 
  'VALID_ARCHS[sdk=iphonesimulator*]' => '', 
- 'OTHER_LDFLAGS' => '$(inherited) -lc++', 
  
  } 
  
