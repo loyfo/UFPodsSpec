@@ -41,8 +41,12 @@
  spec.libraries = 'c++', 'bz2.1.0', 'z', 'iconv' 
  
  spec.xcconfig = { 'ENABLE_BITCODE' => 'NO' } 
- ## 屏蔽x86 
- spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' } 
+ ## 1 屏蔽x86;2 other linker flags 
+ spec.pod_target_xcconfig = { 
+ 'VALID_ARCHS[sdk=iphonesimulator*]' => '', 
+ 'OTHER_LDFLAGS' => '$(inherited) -lc++', 
+ 
+ } 
  
  end 
 
