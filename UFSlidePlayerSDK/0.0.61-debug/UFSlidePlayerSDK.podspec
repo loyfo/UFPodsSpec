@@ -24,7 +24,7 @@
  ] 
  
  spec.private_header_files = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/*.{h,hpp}' 
- spec.vendored_libraries = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/*.a' 
+ spec.vendored_libraries = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/debug/*.a' 
  # spec.resources = 'UFSlidePlayerSDK/UFSlidePlayerSDK/Assets/*.bundle' 
  
  # spec.dependency 'GPUImage' 
