@@ -4,12 +4,12 @@
  spec.version = '0.1.7' 
  spec.summary = 'UFSlidePlayerSDK' 
  spec.description = 'UFSlidePlayerSDK_for_ios' 
- spec.homepage = 'git@git.ufotosoft.com:crossplatform/SlidePlayerSDKIOS.git' 
+ spec.homepage = 'https://git.ufotosoft.com/crossplatform/SlidePlayerSDKIOS.git' 
  spec.license = { :type => 'MIT', :file => 'UFSlidePlayerSDK/LICENSE' } 
  spec.authors = { 'zengpu' => 'zengpu@ufotosoft.com' } 
  spec.platform = :ios 
  spec.platform = :ios, '8.0' 
- spec.source = { :git => 'https://git.ufotosoft.com/crossplatform/SlidePlayerSDKIOS.git', :tag => spec.version.to_s } 
+ spec.source = { :git => 'git@git.ufotosoft.com:crossplatform/SlidePlayerSDKIOS.git', :tag => spec.version.to_s } 
  
  spec.source_files = [ 
  'UFSlidePlayerSDK/UFSlidePlayerSDK/UFSlidePlayerSDK.h', 
