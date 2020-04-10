@@ -9,7 +9,7 @@
  spec.authors = { 'zengpu' => 'zengpu@ufotosoft.com' } 
  spec.platform = :ios 
  spec.platform = :ios, '8.0' 
- spec.source = { :git => 'https://git.ufotosoft.com/crossplatform/SlidePlayerSDKIOS.git', :tag => spec.version.to_s } 
+ spec.source = { :git => 'git@git.ufotosoft.com:crossplatform/SlidePlayerSDKIOS.git', :tag => spec.version.to_s } 
  
  spec.source_files = [ 
  'UFSlidePlayerSDK/UFSlidePlayerSDK/UFSlidePlayerSDK.h', 
