@@ -42,7 +42,7 @@
  
  spec.xcconfig = { 
  'ENABLE_BITCODE' => 'NO', 
- 'VALID_ARCHS'=>'UFSlidePlayerSDK/' 
+ 'VALID_ARCHS'=>'arm64 arm64e x86_64' 
  } 
  ## 1 屏蔽x86;2 other linker flags 
  spec.pod_target_xcconfig = { 
