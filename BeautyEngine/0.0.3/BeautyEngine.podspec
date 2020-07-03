@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
   s.subspec 'FaceEngine' do |ss|
     ss.source_files = 'BeautyEngine/FaceEngine/Classes/**/*', 'BeautyEngine/FaceEngine/Classes/*'
     ss.public_header_files = 'BeautyEngine/FaceEngine/Classes/public/*.h', 'BeautyEngine/FaceEngine/Classes/*.h'
-    ss.dependency 'UFAlgorithm', '~> 1.0.1'
+    ss.dependency 'UFAlgorithm', '~> 1.0.0'
     ss.vendored_libraries = 'BeautyEngine/FaceEngine/lib/*.a'
   end
 
   s.subspec 'BeautyTune' do |ss|
     ss.source_files = 'BeautyEngine/BeautyTune/Classes/**/*'
     ss.public_header_files = 'BeautyEngine/BeautyTune/Classes/*.h'
-    ss.dependency 'UFAlgorithm', '~> 1.0.1'
+    ss.dependency 'UFAlgorithm', '~> 1.0.0'
     ss.vendored_libraries = 'BeautyEngine/BeautyTune/lib/*.a'
   end
   
