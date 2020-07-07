@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.resource_bundles = {
         'UFRenderSDKResource' => ['Resource/**/*']
     }
-    s.dependency 'BeautyEngine', '~> 0.0.3'
+    s.dependency 'BeautyEngine', '~> 0.0.4'
 #    s.dependency 'BeautyEngine/BeautyTune'
 #    s.dependency 'BeautyEngine/FaceEngine'
     s.dependency 'GPUImage'
