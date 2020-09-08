@@ -1,7 +1,7 @@
 
  Pod::Spec.new do |spec| 
  spec.name = 'UFSlidePlayerSDK' 
- spec.version = '0.0.62-debug' 
+ spec.version = '0.0.62-Debug' 
  spec.summary = 'UFSlidePlayerSDK' 
  spec.description = 'UFSlidePlayerSDK_for_ios' 
  spec.homepage = 'https://git.ufotosoft.com/crossplatform/SlidePlayerSDKIOS.git' 
@@ -9,7 +9,7 @@
  spec.authors = { 'zengpu' => 'zengpu@ufotosoft.com' } 
  spec.platform = :ios 
  spec.platform = :ios, '8.0' 
- spec.source = { :git => 'https://git.ufotosoft.com/crossplatform/SlidePlayerSDKIOS.git', :tag => spec.version.to_s } 
+ spec.source = { :git => 'git@git.ufotosoft.com:crossplatform/SlidePlayerSDKIOS.git', :tag => spec.version.to_s } 
  
  spec.source_files = [ 
  'UFSlidePlayerSDK/UFSlidePlayerSDK/UFSlidePlayerSDK.h', 
@@ -42,7 +42,7 @@
  
  spec.xcconfig = { 
  'ENABLE_BITCODE' => 'NO', 
- 'VALID_ARCHS'=>'arm64 arm64e' 
+ 'VALID_ARCHS'=>'arm64 arm64e x86_64' 
  } 
  ## 1 屏蔽x86;2 other linker flags 
  spec.pod_target_xcconfig = { 
