@@ -1,7 +1,7 @@
 
  Pod::Spec.new do |spec| 
  spec.name = 'UFSlidePlayerSDK' 
- spec.version = '0.0.65-debug' 
+ spec.version = '0.0.65-Debug' 
  spec.summary = 'UFSlidePlayerSDK' 
  spec.description = 'UFSlidePlayerSDK_for_ios' 
  spec.homepage = 'https://git.ufotosoft.com/crossplatform/SlidePlayerSDKIOS.git' 
