@@ -34,8 +34,6 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.0']
   
   s.ios.deployment_target = '9.3'
-  
-  s.static_framework = true
 
   s.source_files = 'UFPlatform_LayoutView/Classes/**/{*.h,*.m,*.mm,*.swift,*.hpp}'
   
