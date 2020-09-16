@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
       'SWIFT_COMPILATION_MODE'=>'wholemodule',
       'ENABLE_BITCODE' => 'NO',
       'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+      'VALID_ARCHS[sdk=iphonesimulator*]' => '',
       'DEFINES_MODULE' => 'YES'
   }
 
@@ -49,7 +50,6 @@ Pod::Spec.new do |s|
      b.source_files = 'UFEffectsEngine/Classes/UFFilter/**/{*.swift}'
      b.pod_target_xcconfig = {
          'SWIFT_ACTIVE_COMPILATION_CONDITIONS' => '$(inherited) UFEffect_Filter',
-         'skip_validation' => true
      }
   end
 
