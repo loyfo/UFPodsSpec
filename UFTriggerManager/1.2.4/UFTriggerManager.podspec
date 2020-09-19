@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'UFTriggerManager/Classes/**/*'
   
-   s.dependency 'UFSlidePlayerSDK','<1.3.0' #引擎提前发版本的坑，真尴尬
+   s.dependency 'UFSlidePlayerSDK'
    s.dependency 'UFPlatform_LayoutView'
    s.dependency 'UFSwiftBase'
 
