@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
 
   s.source_files = 'UFAdvertKit/Classes/**/*'
-  
+  s.static_framework = true  # Error:  target has transitive dependencies that include statically linked binaries
 
   s.dependency 'Google-Mobile-Ads-SDK'
   s.dependency 'GoogleMobileAdsMediationFacebook'
