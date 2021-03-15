@@ -5,7 +5,7 @@
  spec.summary = 'UFCodecSDK' 
  spec.description = 'UFCodecSDK_for_ios' 
  spec.homepage = 'https://git.ufotosoft.com/crossplatform/UFCodecSDK-IOS' 
- spec.license = { :type => 'MIT', :file => 'LICENSE' } 
+ spec.license = { :type => 'MIT', :file => 'UFCodecSDK/LICENSE' } 
  spec.authors = { 'ufoto' => 'codehq@ufotosoft.com' } 
  spec.platform = :ios 
  spec.platform = :ios, '9.0' 
