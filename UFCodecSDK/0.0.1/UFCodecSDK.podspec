@@ -41,6 +41,7 @@
  'UFCodecSDK/UFCodecSDK/classes/public/base/*.h', 
  'UFCodecSDK/UFCodecSDK/classes/public/base/**/*.h', 
  ] 
+ base.dependency 'UFOpenGLSDK' 
  end 
  
  ## 子库 AVFoundation 
