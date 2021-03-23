@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'UFRenderFilterSDK'
-    s.version          = '0.0.16'
+    s.version          = '1.1.0'
     s.summary          = 'Ufoto UFRenderFilterSDK.'
     s.homepage         = 'https://gitb.ufotosoft.com/iostools/ufrendersdk'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -11,14 +11,17 @@ Pod::Spec.new do |s|
   
     s.ios.deployment_target = '9.0'
     s.swift_version = '4.0'
-    s.source_files = 'Classes/**/*'
+    s.source_files = 'UFRenderSDK/Classes/**/*'
     s.resource_bundles = {
-        'UFRenderSDKResource' => ['Resource/**/*']
+        'UFRenderSDKResource' => ['UFRenderSDK/Assets/**/*']
     }
-    s.module_name = 'UFRenderFilterSDK'
     
-    s.dependency 'BeautyEngine/RenderEngine'
+    s.dependency 'BeautyEngine', '>= 1.1.0'
     s.dependency 'GPUImage'
+    s.dependency 'UFFaceTracker'
+    s.dependency 'UFImageTool'
     s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'VALID_ARCHS[sdk=iphonesimulator*]' => ''}
   end
+
+
 
