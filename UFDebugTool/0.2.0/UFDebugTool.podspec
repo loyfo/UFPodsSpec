@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UFDebugTool'
-  s.version          = '0.1.5'
+  s.version          = '0.2.0'
   s.summary          = 'A UFDebugTool.'
   s.homepage         = 'https://git.ufotosoft.com/iostools/UFDebugTool'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
