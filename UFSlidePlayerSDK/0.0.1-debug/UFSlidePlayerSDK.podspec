@@ -24,10 +24,11 @@
  ] 
  
  spec.private_header_files = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/*.{h,hpp}' 
- spec.vendored_libraries = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/debug/*.a' 
- # spec.resources = 'UFSlidePlayerSDK/UFSlidePlayerSDK/Assets/*.bundle' 
+ spec.vendored_libraries = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/release/*.a' 
+ spec.resources = 'UFSlidePlayerSDK/UFSlidePlayerSDK/Assets/*.bundle' 
  
- # spec.dependency 'GPUImage' 
+ #spec.dependency 'UFOpenGLSDK','UFCodecSDK' 
+ 
  
  # spec.resource = 'icon.png' 
  
@@ -42,7 +43,7 @@
  
  spec.xcconfig = { 
  'ENABLE_BITCODE' => 'NO', 
- 'VALID_ARCHS'=>'arm64 arm64e x86_64' 
+ 'VALID_ARCHS'=>'arm64 arm64e' 
  } 
  ## 1 屏蔽x86;2 other linker flags 
  spec.pod_target_xcconfig = { 
