@@ -8,7 +8,7 @@
  spec.license = { :type => 'MIT', :file => 'UFSlidePlayerSDK/LICENSE' } 
  spec.authors = { 'ufoto' => 'codehq@ufotosoft.com' } 
  spec.platform = :ios 
- spec.platform = :ios, '8.0' 
+ spec.platform = :ios, '9.0' 
  spec.source = { :git => 'git@git.ufotosoft.com:crossplatform/SlidePlayerSDKIOS.git', :tag => spec.version.to_s } 
  
  spec.source_files = [ 
@@ -27,7 +27,7 @@
  spec.vendored_libraries = 'UFSlidePlayerSDK/UFSlidePlayerSDK/libs/**/release/*.a' 
  spec.resources = 'UFSlidePlayerSDK/UFSlidePlayerSDK/Assets/*.bundle' 
  
- #spec.dependency 'UFOpenGLSDK','UFCodecSDK' 
+ spec.dependency 'UFCodecSDK' 
  
  
  # spec.resource = 'icon.png' 
