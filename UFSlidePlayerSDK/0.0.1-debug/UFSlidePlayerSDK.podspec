@@ -29,6 +29,8 @@
  
  spec.dependency 'UFCodecSDK' 
  
+ spec.dependency 'UFOpenGLSDK' 
+ 
  
  # spec.resource = 'icon.png' 
  
