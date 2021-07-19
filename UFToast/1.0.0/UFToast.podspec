@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://git.ufotosoft.com/iostools/UFToast'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'liuliang' => '3446513@qq.com' }
-    s.source           = { :git => 'https://git.ufotosoft.com/iostools/UFViewComponent.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://git.ufotosoft.com/iostools/UFToast.git', :tag => s.version.to_s }
     
     s.ios.deployment_target = '10.0'
     s.swift_version = '5.0'
