@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://git.ufotosoft.com/iostools/UFEffectsEngine'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'loyfo' => 'hwp_163@163.com' }
-  s.source           = { :git => 'git@git.ufotosoft.com:iostools/UFFaceAI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@git.ufotosoft.com:iostools/UFEffectsEngine.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
